@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import '../style/button.scss';
 
-const CustomButton = () => {
+const CustomButton = ({ label }) => {
   return (
     <div>
-      <button type="button">Hi</button>
+      <button type="button">{label}</button>
     </div>
   );
 }
