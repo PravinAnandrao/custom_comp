@@ -1,9 +1,9 @@
 {
   "name": "@pravin_008/custom_comp",
-  "version": "1.4.0",
+  "module": "/dist/custom-button",
+  "version": "1.4.1",
   "description": "",
   "main": "index.js",
-  "module": "/dist/custom_comp",
   "author": {
     "name": "Pravin Bagade",
     "email": "pravinlogic.358@gmail"
