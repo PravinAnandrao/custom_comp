@@ -1,7 +1,7 @@
 {
   "name": "@pravin_008/custom_comp",
   "module": "/dist/custom-button",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "",
   "main": "index.js",
   "author": {
@@ -17,16 +17,21 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
     "docs": "start-storybook -p 9001 -c .storybook",
-    "docs-build": "build-storybook -c .storybook -o docs"
+    "docs:build": "build-storybook -c .storybook -o docs",
+    "storybook": "start-storybook",
+    "debug-storybook": "storybook --debug-webpack",
+    "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "license": "ISC",
   "devDependencies": {
+    "@storybook/react": "^5.3.18"
+  },
+  "dependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
     "@storybook/addon-info": "^5.3.18",
     "@storybook/components": "^5.3.18",
-    "@storybook/react": "^5.3.18",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.5.3",
