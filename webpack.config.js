@@ -9,7 +9,7 @@ module.exports = {
   output: {
     filename: "custom-button.js",
     library: "custom-button",
-    libraryTarget: "commonjs2",
+    libraryTarget: "umd",
     path: path.resolve(__dirname, 'dist')
   },
   module: {
