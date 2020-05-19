@@ -1,7 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import CustomButton from '../../src/index';
+import { Button, Input } from '../../src/index';
 
 storiesOf("Button", module).add("with text", () => (
-  <CustomButton label={'Custom Button'} />
+  <Button label={'Hello Button'} />
+));
+
+storiesOf("Input", module).add("with text", () => (
+  <Input label={'First Name'} />
 ));
